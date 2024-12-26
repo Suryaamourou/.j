@@ -667,8 +667,6 @@ p {
 
 
 @media only screen and (max-width: 800px) {    
-    .space{
-        height: 40px;}
 
     #logo {
         height: 40px;
