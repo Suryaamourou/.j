@@ -692,3 +692,15 @@ p {
         .copyright{font-size: 10px;
     }
 }
+
+/* Par défaut, pas d'espace supplémentaire */
+.mobile-space {
+    height: 0;
+}
+
+/* Pour les écrans de téléphone */
+@media screen and (max-width: 767px) {
+    .mobile-space {
+        height: 20px; /* ou la hauteur souhaitée */
+    }
+}
