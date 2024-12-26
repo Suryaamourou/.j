@@ -701,6 +701,6 @@ p {
 /* Pour les écrans de téléphone */
 @media screen and (max-width: 767px) {
     .mobile-space {
-        height: 20px; /* ou la hauteur souhaitée */
+        height: 80px; /* ou la hauteur souhaitée */
     }
 }
