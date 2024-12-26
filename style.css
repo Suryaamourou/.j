@@ -638,10 +638,6 @@ p {
 }
 
 @media only screen and (max-width: 950px) {
-    h3 {
-    font-size: 35px;
-
-}
     .disappear-on-mob {
         display: none;
     }
@@ -671,9 +667,7 @@ p {
 }
 
 @media only screen and (max-width: 800px) {    
-h3 {
-    font-size: 35px;
-}
+
     #logo {
         height: 40px;
         margin-top: auto;
@@ -699,4 +693,14 @@ h3 {
     }
 }
 
+/* Par défaut, pas d'espace supplémentaire */
+.mobile-space {
+    height: 0;
+}
 
+/* Pour les écrans de téléphone */
+@media screen and (max-width: 767px) {
+    .mobile-space {
+        height: 20px; /* ou la hauteur souhaitée */
+    }
+}
