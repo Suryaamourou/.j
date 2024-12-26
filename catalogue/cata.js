@@ -1,5 +1,5 @@
-let buttons = ["block-1-btn","block-3-btn"];
-let containers = ["container-1","container-3"];
+let buttons = ["block-1-btn","block-2-btn","block-3-btn"];
+let containers = ["container-1","container-2","container-3"];
 
 for(let i = 1; i < containers.length; i++) document.getElementById(containers[i]).style.display = 'none';
 
