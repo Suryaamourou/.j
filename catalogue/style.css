@@ -367,7 +367,7 @@ footer {
 
 .cata {
     display: grid;
-    grid-template-columns: repeat(1, 250px);
+    grid-template-columns: repeat(2, 235px);
     gap: 30px;
     width: max-content;
     margin-left: auto;
@@ -629,7 +629,13 @@ p {
     }
 }
 
+.space{
+    height: 100px;}
+
 @media only screen and (max-width: 950px) {
+    .space{
+        height: 140px;}
+
     .disappear-on-mob {
         display: none;
     }
@@ -656,4 +662,37 @@ p {
     .btn{
         font-size: 15px!important;
     }
+}
+
+
+
+@media only screen and (max-width: 800px) {    
+    .space{
+        height: 140px;}
+
+
+    #logo {
+        height: 40px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 45px;
+    }
+    body {
+        background-image: none; /* Supprimer l'image de fond pour les écrans mobiles */
+    }
+
+    #hero{
+        display: none;
+    }
+    #catalogue {
+        background-color: #fff;
+        margin-top: 0;
+        padding: 30px;
+        width: calc(100vw - 60px);/* */
+    }
+        .copyright{font-size: 10px;
+    }
+}
+.hide-on-computer{
+    display: none;
 }
